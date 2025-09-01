@@ -1,0 +1,85 @@
+/* General App Styling */
+.countdown-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Timer Display */
+h2 {
+  font-size: 3rem;
+  margin: 20px ;
+  letter-spacing: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Time Setter */
+.time-setter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.time-setter input {
+  width: 70px;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.time-setter input:disabled {
+  background: #ccc;
+  color: #666;
+}
+
+/* Buttons */
+.controls {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:first-child {
+  background: #4caf50;
+  color: white;
+}
+
+button:nth-child(2) {
+  background: #f44336;
+  color: white;
+}
+
+button:last-child {
+  background: #ff9800;
+  color: white;
+}
